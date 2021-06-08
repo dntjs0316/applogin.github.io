@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+*{margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration: none; display:block; color:#DABBEA}
+
+.all_page{
+    width:428px;
+    height:927px;
+    background-color: #E8E8E8;
+}
+
+.Login h1{
+    font-size:30px;
+    color:#707070;
+    text-align:center;
+    padding-top:74px;
+    padding-bottom:54px;
+}
+
+.img{
+    text-align: center;
+    padding-bottom:75px;
+}
+
+.text {
+    text-align:center;
+}
+
+.for p{
+    width:282px;
+    font-size:14px;
+    color:#DABBEA;
+}
+
+.text input[type="text"]{
+    width:282px;
+    height:64px;
+    border:1px solid transparent;
+    padding-left:12px;
+    font-size:17px;
+    color:#DABBEA;
+}
+
+.text #ID{
+    margin-bottom:26px;
+}
+
+.text #PASS{
+    margin-bottom:10px;
+}
+
+button{
+    margin-top:28px;
+    width:296.48px;
+    height:64px;
+    background-color:#BEBEBE;
+    font-size:20px;
+    color:white;
+    border:1px solid transparent;
+    margin-bottom:74px;
+}
+
+.bottom{
+    text-align: center;
+}
+
+.bottom .sign_img img{
+    width:37px;
+    height:36px;
+    border-radius: 50%;
+}
+
+.bottom p{
+    margin-bottom:20px;
+    font-size:14px;
+    color:#B1B1B1;
+}
+
+.bottom p:first-child{
+    position: relative;
+}
+
+.bottom p:first-child::before{
+    content:'';
+    width: 61px;
+    height:1px;
+    background-color: #B1B1B1; 
+    position:absolute;
+    left:97px;
+    top:45%;
+}
+
+
+.bottom p:first-child::after{
+    content:'';
+    width: 61px;
+    height:1px;
+    background-color: #B1B1B1; 
+    position:absolute;
+    right:97px;
+    top:45%;
+}
+
+.bottom p:last-child{
+    margin-top:20px;
+}
+
+.bottom p span{
+    color:#DABBEA;
+    font-size:14px;
+}
+
+.bottom a{
+    display:inline-block;
+}
+
+::placeholder, label {
+    font-size:17px;
+    color:#DADADA;
+}
